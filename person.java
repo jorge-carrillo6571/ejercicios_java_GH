@@ -24,4 +24,12 @@ public class person{
 	public String getSurname(){
 		return this.surname; 
 	}
+
+	public void greetings(){
+
+		System.out.println("Hello, my name is "+ this.name ); 
+	}
+
+
+
 }
